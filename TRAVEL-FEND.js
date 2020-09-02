@@ -12,6 +12,9 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 3000); 
 }
+
+
+
 $(".TRAVEL").on("mousemove",function(){
   $(".TRAVEL").css("background-color","rgba(0,0,0,0.5)");
   $(".TRAVEL").css("color","white");
